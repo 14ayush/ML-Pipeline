@@ -1,0 +1,5 @@
+!----------------------PROJECT FLOW--------------------------!
+1. Create the github repo and clone it into local system.(Add the experiment folder in it )
+2. Add the src folder along with its all components(rum them individually).
+3> Add data, models, reports directories to .gitignore file
+4> Now git add, commit, push
