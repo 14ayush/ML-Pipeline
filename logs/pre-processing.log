@@ -22,3 +22,13 @@
 2025-05-19 17:16:53,503-pre-processing-pre-processing-Duplicates removed successfully %s
 2025-05-19 17:16:59,840-pre-processing-pre-processing-text transform successfully %s
 2025-05-19 17:16:59,854-pre-processing-pre-processing-Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-05-19 22:52:39,634-pre-processing-pre-processing-load the data successfully %s
+2025-05-19 22:52:39,634-pre-processing-pre-processing-preprocessing start %s
+2025-05-19 22:52:39,634-pre-processing-pre-processing-Target column gets encoded %s
+2025-05-19 22:52:39,634-pre-processing-pre-processing-Duplicates removed successfully %s
+2025-05-19 22:52:52,399-pre-processing-pre-processing-text transform successfully %s
+2025-05-19 22:52:52,399-pre-processing-pre-processing-preprocessing start %s
+2025-05-19 22:52:52,399-pre-processing-pre-processing-Target column gets encoded %s
+2025-05-19 22:52:52,399-pre-processing-pre-processing-Duplicates removed successfully %s
+2025-05-19 22:52:55,834-pre-processing-pre-processing-text transform successfully %s
+2025-05-19 22:52:55,856-pre-processing-pre-processing-data saved successfully %s

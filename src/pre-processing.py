@@ -66,6 +66,8 @@ def preprocess(df,text_column='Message',target_column='Target'):
         #apply text transform 
         df.loc[:,text_column]=df[text_column].apply(transform_text)
         logger.debug('text transform successfully %s')
+        return df
+    
     except KeyError as e:
         logger.debug('columns not found %s',e)
         raise
@@ -89,6 +91,7 @@ def main(text_column='Message',target_column="Target"):
         #store the data
         data_path=os.path.join("./data","intrim")
         os.makedirs(data_path,exist_ok=True)
+        
         train_transformed_data.to_csv(os.path.join(data_path, "train_transform.csv"), index=False)
         test_transformed_data.to_csv(os.path.join(data_path, "test_transform.csv"), index=False)
         logger.debug('data saved successfully %s')
