@@ -3,7 +3,7 @@ import os
 from sklearn.model_selection import train_test_split
 import logging
 
-#making the lo directory
+#making the log directory
 log_dir='logs'
 os.makedirs(log_dir,exist_ok=True)  #using os make the logs folder
 
