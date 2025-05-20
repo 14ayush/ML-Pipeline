@@ -11,3 +11,9 @@
 2025-05-20 14:47:39,896 - feature_engineering - DEBUG - Feature applied and data transformed %s  
 2025-05-20 14:47:40,068 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
 2025-05-20 14:47:40,111 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  
+2025-05-20 21:58:01,849 - feature_engineering - DEBUG - Data loaded successfully ./data/processed_data/train_processed.csv  
+2025-05-20 21:58:01,854 - feature_engineering - DEBUG - initilizing the parameters {'n_estimators': 25, 'random_state': 2}  
+2025-05-20 21:58:01,854 - feature_engineering - DEBUG - Model training initilized 4152  
+2025-05-20 21:58:02,115 - feature_engineering - DEBUG - model train successful  
+2025-05-20 21:58:02,125 - feature_engineering - DEBUG - Model saved successfully models/model.pkl   
+2025-05-20 21:58:02,127 - feature_engineering - DEBUG - Model saved successfully %s  

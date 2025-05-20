@@ -1,6 +1,0 @@
-2025-05-18 23:04:59,290 - data_ingestion - DEBUG - data load successfully https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
-2025-05-18 23:04:59,307 - data_ingestion - DEBUG - preproces completed %s
-2025-05-18 23:04:59,307 - data_ingestion - DEBUG - data not saved cannot access local variable 'raw_data' where it is not associated with a value
-2025-05-18 23:05:35,886 - data_ingestion - DEBUG - data load successfully https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
-2025-05-18 23:05:35,886 - data_ingestion - DEBUG - preproces completed %s
-2025-05-18 23:05:35,886 - data_ingestion - DEBUG - data not saved cannot access local variable 'raw_dat' where it is not associated with a value
