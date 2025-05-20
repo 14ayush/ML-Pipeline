@@ -1,0 +1,4 @@
+2025-05-20 23:05:53,934 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-20 23:05:53,947 - model_evaluation - DEBUG - Data loaded from logs\model_evaluation .log  
+2025-05-20 23:05:53,947 - model_evaluation - DEBUG - Metric evaluation unsucessfull Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by RandomForestClassifier.  
+2025-05-20 23:05:53,947 - model_evaluation - ERROR - Failed to complete the model evaluation process: Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by RandomForestClassifier.  
