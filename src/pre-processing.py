@@ -24,7 +24,7 @@ file_dir=os.path.join(log_dir,'pre-processing.log')
 file_handler=logging.FileHandler(file_dir)
 file_handler.setLevel('DEBUG')
 
-formater=logging.Formatter('%(asctime)s-%(name)s-%(name)s-%(message)s')
+formater=logging.Formatter('%(asctime)s - %(name)s - %(name)s - %(message)s ')
 file_handler.setFormatter(formater)
 logger.addHandler(file_handler)
 
@@ -91,7 +91,7 @@ def main(text_column='Message',target_column="Target"):
         #store the data
         data_path=os.path.join("./data","intrim")
         os.makedirs(data_path,exist_ok=True)
-        
+
         train_transformed_data.to_csv(os.path.join(data_path, "train_transform.csv"), index=False)
         test_transformed_data.to_csv(os.path.join(data_path, "test_transform.csv"), index=False)
         logger.debug('data saved successfully %s')

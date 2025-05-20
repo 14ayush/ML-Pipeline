@@ -1,0 +1,13 @@
+2025-05-20 14:40:08,421 - feature_engineering - DEBUG - Data load successfully  
+2025-05-20 14:40:08,426 - feature_engineering - DEBUG - Data load successfully  
+2025-05-20 14:40:08,515 - feature_engineering - DEBUG - tfidf applied and data transformed  
+2025-05-20 14:40:23,774 - feature_engineering - DEBUG - Data load successfully  
+2025-05-20 14:40:23,785 - feature_engineering - DEBUG - Data load successfully  
+2025-05-20 14:40:23,886 - feature_engineering - DEBUG - tfidf applied and data transformed  
+2025-05-20 14:43:58,236 - feature_engineering - DEBUG - tfidf applied and data transformed  
+2025-05-20 14:44:51,196 - feature_engineering - DEBUG - tfidf applied and data transformed  
+2025-05-20 14:47:39,785 - feature_engineering - DEBUG - Data load successfully ./data/intrim/train_transform.csv  
+2025-05-20 14:47:39,809 - feature_engineering - DEBUG - Data load successfully ./data/intrim/test_transform.csv  
+2025-05-20 14:47:39,896 - feature_engineering - DEBUG - Feature applied and data transformed %s  
+2025-05-20 14:47:40,068 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
+2025-05-20 14:47:40,111 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  
