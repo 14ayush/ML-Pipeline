@@ -5,6 +5,8 @@ import numpy as np
 from sklearn.metrics import accuracy_score,precision_score,recall_score,roc_auc_score
 import pickle
 import json
+import yaml
+from dvclive import Live
 
 #log function code
 
@@ -27,6 +29,25 @@ logger.addHandler(file_handler)
 
 #create the function 
 #loading the model
+
+
+#LOAD THE PARAMS 
+def load_params(params_path:str)->None:
+    """Loading the parameters from the params section"""
+    try:
+        with open(params_path,'rb') as file:
+            params=yaml.safe_load(file)
+        logger.debug('Params file load successfully %s ')
+        return params
+    except FileNotFoundError as e:
+        logger.debug('File not found %s',e)
+        raise
+    except yaml.YAMLError as e:
+        logger.debug('YAML Error %s',e)
+        raise
+    except Exception as e:
+        logger.debug('unexpected error %s',e)
+
 
 def load_model(model_path:str)->None:
     """Loading the model """
@@ -92,7 +113,7 @@ def metric_save(metrics:dict,path:str)->None:
 
 def main():
     try:
-        #params = load_params(params_path='params.yaml')
+        params = load_params(params_path='params.yaml')
         clf = load_model('./models/model.pkl')
         test_data = load_data('./data/processed_data/test_processed.csv')
         
@@ -102,12 +123,12 @@ def main():
         metrics = model_eval(clf, X_test, y_test)
 
         # Experiment tracking using dvclive
-        '''with Live(save_dvc_exp=True) as live:
+        with Live(save_dvc_exp=True) as live:
             live.log_metric('accuracy', accuracy_score(y_test, y_test))
             live.log_metric('precision', precision_score(y_test, y_test))
             live.log_metric('recall', recall_score(y_test, y_test))
 
-            live.log_params(params)'''
+            live.log_params(params)
         
         metric_save(metrics, 'reports/metrics.json')
     except Exception as e:

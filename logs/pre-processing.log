@@ -1,0 +1,10 @@
+2025-05-24 14:46:12,306 - pre-processing - pre-processing - load the data successfully %s 
+2025-05-24 14:46:12,306 - pre-processing - pre-processing - preprocessing start %s 
+2025-05-24 14:46:12,310 - pre-processing - pre-processing - Target column gets encoded %s 
+2025-05-24 14:46:12,315 - pre-processing - pre-processing - Duplicates removed successfully %s 
+2025-05-24 14:46:44,180 - pre-processing - pre-processing - text transform successfully %s 
+2025-05-24 14:46:44,180 - pre-processing - pre-processing - preprocessing start %s 
+2025-05-24 14:46:44,180 - pre-processing - pre-processing - Target column gets encoded %s 
+2025-05-24 14:46:44,180 - pre-processing - pre-processing - Duplicates removed successfully %s 
+2025-05-24 14:46:47,910 - pre-processing - pre-processing - text transform successfully %s 
+2025-05-24 14:46:47,930 - pre-processing - pre-processing - data saved successfully %s 

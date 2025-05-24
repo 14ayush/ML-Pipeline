@@ -1,0 +1,24 @@
+2025-05-24 14:46:53,037 - feature_engineering - DEBUG - Params file load successfully %s   
+2025-05-24 14:46:53,054 - feature_engineering - DEBUG - Data load successfully ./data/intrim/train_transform.csv  
+2025-05-24 14:46:53,055 - feature_engineering - DEBUG - Data load successfully ./data/intrim/test_transform.csv  
+2025-05-24 14:46:53,150 - feature_engineering - DEBUG - Feature applied and data transformed %s  
+2025-05-24 14:46:53,779 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
+2025-05-24 14:46:53,858 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  
+2025-05-24 14:48:09,544 - feature_engineering - DEBUG - Params file load successfully %s   
+2025-05-24 14:48:09,589 - feature_engineering - DEBUG - Data load successfully ./data/intrim/train_transform.csv  
+2025-05-24 14:48:09,618 - feature_engineering - DEBUG - Data load successfully ./data/intrim/test_transform.csv  
+2025-05-24 14:48:09,734 - feature_engineering - DEBUG - Feature applied and data transformed %s  
+2025-05-24 14:48:10,056 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
+2025-05-24 14:48:10,134 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  
+2025-05-24 14:50:18,880 - feature_engineering - DEBUG - Params file load successfully %s   
+2025-05-24 14:50:18,921 - feature_engineering - DEBUG - Data load successfully ./data/intrim/train_transform.csv  
+2025-05-24 14:50:18,954 - feature_engineering - DEBUG - Data load successfully ./data/intrim/test_transform.csv  
+2025-05-24 14:50:19,074 - feature_engineering - DEBUG - Feature applied and data transformed %s  
+2025-05-24 14:50:19,415 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
+2025-05-24 14:50:19,580 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  
+2025-05-24 15:20:39,420 - feature_engineering - DEBUG - Params file load successfully %s   
+2025-05-24 15:20:39,450 - feature_engineering - DEBUG - Data load successfully ./data/intrim/train_transform.csv  
+2025-05-24 15:20:39,481 - feature_engineering - DEBUG - Data load successfully ./data/intrim/test_transform.csv  
+2025-05-24 15:20:39,596 - feature_engineering - DEBUG - Feature applied and data transformed %s  
+2025-05-24 15:20:39,756 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\train_processed.csv  
+2025-05-24 15:20:39,805 - feature_engineering - DEBUG - Data Saved Succesfully ./data\processed_data\test_processed.csv  

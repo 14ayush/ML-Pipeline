@@ -1,0 +1,20 @@
+2025-05-24 14:47:06,072 - model_evaluation - DEBUG - Params file load successfully %s   
+2025-05-24 14:47:06,485 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 14:47:06,517 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 14:47:06,563 - model_evaluation - DEBUG - Model evaluated successfully %s  
+2025-05-24 14:47:07,686 - model_evaluation - DEBUG - Metrices saved successfully %s  
+2025-05-24 14:48:21,923 - model_evaluation - DEBUG - Params file load successfully %s   
+2025-05-24 14:48:22,277 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 14:48:22,299 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 14:48:22,355 - model_evaluation - DEBUG - Model evaluated successfully %s  
+2025-05-24 14:48:23,416 - model_evaluation - DEBUG - Metrices saved successfully %s  
+2025-05-24 14:50:32,691 - model_evaluation - DEBUG - Params file load successfully %s   
+2025-05-24 14:50:33,081 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 14:50:33,113 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 14:50:33,299 - model_evaluation - DEBUG - Model evaluated successfully %s  
+2025-05-24 14:50:34,331 - model_evaluation - DEBUG - Metrices saved successfully %s  
+2025-05-24 15:20:51,849 - model_evaluation - DEBUG - Params file load successfully %s   
+2025-05-24 15:20:52,243 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 15:20:52,255 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 15:20:52,293 - model_evaluation - DEBUG - Model evaluated successfully %s  
+2025-05-24 15:20:53,471 - model_evaluation - DEBUG - Metrices saved successfully %s  

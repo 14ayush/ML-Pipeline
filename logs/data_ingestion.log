@@ -1,0 +1,8 @@
+2025-05-24 14:44:46,082 - data_ingestion - DEBUG - Params file load successfully %s 
+2025-05-24 14:44:47,643 - data_ingestion - DEBUG - Data loaded successfully https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
+2025-05-24 14:44:47,649 - data_ingestion - DEBUG - Prprocessing successful %s
+2025-05-24 14:44:47,691 - data_ingestion - DEBUG - data saved successfully ./data\raw
+2025-05-24 14:46:01,452 - data_ingestion - DEBUG - Params file load successfully %s 
+2025-05-24 14:46:03,423 - data_ingestion - DEBUG - Data loaded successfully https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
+2025-05-24 14:46:03,427 - data_ingestion - DEBUG - Prprocessing successful %s
+2025-05-24 14:46:03,469 - data_ingestion - DEBUG - data saved successfully ./data\raw
