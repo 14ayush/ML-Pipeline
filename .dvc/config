@@ -1,0 +1,4 @@
+[core]
+    remote = mlops
+['remote "mlops"']
+    url = s3://dvc-s3-bucket-ayush
