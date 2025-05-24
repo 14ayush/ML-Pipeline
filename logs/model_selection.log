@@ -1,6 +1,0 @@
-2025-05-20 21:59:02,353 - model_selection - DEBUG - Data loaded successfully ./data/processed_data/train_processed.csv  
-2025-05-20 21:59:02,353 - model_selection - DEBUG - initilizing the parameters {'n_estimators': 25, 'random_state': 2}  
-2025-05-20 21:59:02,353 - model_selection - DEBUG - Model training initilized 4152  
-2025-05-20 21:59:02,587 - model_selection - DEBUG - model train successful  
-2025-05-20 21:59:02,587 - model_selection - DEBUG - Model saved successfully models/model.pkl   
-2025-05-20 21:59:02,587 - model_selection - DEBUG - Model saved successfully %s  
