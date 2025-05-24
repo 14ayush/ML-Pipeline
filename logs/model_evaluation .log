@@ -2,3 +2,19 @@
 2025-05-20 23:05:53,947 - model_evaluation - DEBUG - Data loaded from logs\model_evaluation .log  
 2025-05-20 23:05:53,947 - model_evaluation - DEBUG - Metric evaluation unsucessfull Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by RandomForestClassifier.  
 2025-05-20 23:05:53,947 - model_evaluation - ERROR - Failed to complete the model evaluation process: Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by RandomForestClassifier.  
+2025-05-24 10:47:31,445 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 10:47:31,471 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 10:47:31,477 - model_evaluation - DEBUG - Metric evaluation unsucessfull 'function' object has no attribute 'proba'  
+2025-05-24 10:47:31,477 - model_evaluation - ERROR - Failed to complete the model evaluation process: 'function' object has no attribute 'proba'  
+2025-05-24 10:49:01,063 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 10:49:01,076 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 10:49:01,081 - model_evaluation - DEBUG - Metric evaluation unsucessfull 'function' object has no attribute 'proba'  
+2025-05-24 10:49:01,081 - model_evaluation - ERROR - Failed to complete the model evaluation process: 'function' object has no attribute 'proba'  
+2025-05-24 10:52:53,915 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 10:52:53,925 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 10:52:53,935 - model_evaluation - DEBUG - Metric evaluation unsucessfull 'function' object has no attribute 'proba'  
+2025-05-24 10:52:53,935 - model_evaluation - ERROR - Failed to complete the model evaluation process: 'function' object has no attribute 'proba'  
+2025-05-24 10:54:51,416 - model_evaluation - DEBUG - Model loaded successfullt ./models/model.pkl  
+2025-05-24 10:54:51,421 - model_evaluation - DEBUG - Data loaded from ./data/processed_data/test_processed.csv  
+2025-05-24 10:54:51,443 - model_evaluation - DEBUG - Model evaluated successfully %s  
+2025-05-24 10:54:51,443 - model_evaluation - DEBUG - Metrices saved successfully %s  

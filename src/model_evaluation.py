@@ -36,16 +36,16 @@ def load_model(model_path:str)->None:
         logger.debug('Model loaded successfullt %s',model_path)
         return model
     except Exception as e:
-        logger.debug('model is not loaded successfully %s')
+        logger.debug('model is not loaded successfully %s',e)
         raise 
 
 #loading the test data
 
-def load_data(data_url:str)->pd.DataFrame:
+def load_data(model_path:str) -> pd.DataFrame:
     """Loading the test data for the model evaluation """
     try:
-        df = pd.read_csv(file_path)
-        logger.debug('Data loaded from %s', file_path)
+        df = pd.read_csv(model_path)
+        logger.debug('Data loaded from %s', model_path)
         return df
     except pd.errors.ParserError as e:
         logger.error('Failed to parse the CSV file: %s', e)
@@ -58,7 +58,7 @@ def model_eval(clf,X_test:np.ndarray,y_test:np.ndarray)-> dict:
     """evaluating the model s"""
     try:
         y_pred=clf.predict(X_test)
-        y_pred_prob=clf.predict.proba(X_test)[:,-1]
+        y_pred_prob=clf.predict_proba(X_test)[:, 1]
         
         accuracy=accuracy_score(y_test,y_pred)
         precision=precision_score(y_test,y_pred)
@@ -79,13 +79,13 @@ def model_eval(clf,X_test:np.ndarray,y_test:np.ndarray)-> dict:
 
 #metric save
 
-def metric_save(path:str,metrics:dict):
+def metric_save(metrics:dict,path:str)->None:
     """Saving the metrices """
     try:
         os.makedirs(os.path.dirname(path),exist_ok=True)
         with open(path,'w')as file:
-            json.dump(file,path,indent=4)
-        logger.debug('aetrices saved successfully %s')
+            json.dump(metrics,file,indent=4)
+        logger.debug('Metrices saved successfully %s')
     except Exception as e:
         logger.debug('unable to save the metric because metrics did not generated %s',e)
         raise
